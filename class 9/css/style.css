@@ -1,0 +1,31 @@
+/* .item img{
+    height: 400px;
+    width: 600px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+} */
+nav{
+    background-color: brown; 
+    box-shadow: 5px 5px 10px gray;
+}
+nav h3{
+    color: white;
+}
+ nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+} 
+nav ul li a:hover{
+    color: red;
+}
+.btn-primary{
+    background-color: aliceblue;
+    color: aquamarine;
+    border: none;
+}

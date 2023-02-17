@@ -1,0 +1,80 @@
+
+.navbar-brand img{
+    width: 50px;
+}
+.login-icon{
+    color: white;
+    padding-left: 10px;
+}
+.dropdown-menu{
+    margin-left: 80%;
+    border: none;
+    color: red;
+}
+.dropdown-menu li a{
+    color: red;
+}
+dropdown-item:hover{
+    background-color: white;
+}
+nav{
+    background-color: red;
+}
+.drop{
+    color: white;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(https://us.knews.media/wp-content/uploads/2022/09/wednesday-jenna-ortega-social-featured.jpg);
+    background-size: cover;
+}
+.jumbotron{
+    position: absolute;
+    top: 200px;
+    color: white;
+}
+.top-text{
+    background-color: red;
+    width: 120px;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+.jumbotron h1{
+    font-size: 4em;
+}
+.desc{
+    text-shadow: 0 0 3px black;
+}
+.btn-hero-btn-1{
+    background-color: red;
+    border: none;
+    width: 100px;
+}
+.btn-hero-btn-1:hover{
+    background-color: rgb(36, 36, 36);
+}
+.btn-hero-btn-2{
+    background-color: rgb(84, 84, 84);
+    width: 100px;
+    border: none;
+}
+.btn-hero-btn-2:hover{
+    background-color: rgb(0, 0, 0);
+}
+main{
+    height: 250px;
+    background: #000;
+    color: white;
+    padding-top: 10px;
+}
+.row-wrapper{
+    display: flex;
+    overflow-x: auto;
+}
+.row-wrapper img{
+    width: 400px;
+    height: 200px;
+    padding: 0 10px;
+}

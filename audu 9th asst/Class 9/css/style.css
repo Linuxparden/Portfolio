@@ -1,0 +1,40 @@
+nav{
+    background: white;
+    box-shadow: 2px 2px 5px grey;
+}
+.navbar-brand{
+    
+    margin-left: 100px;
+}
+.navbar-nav{
+    margin-left: 500px;
+  
+}
+/* nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+} 
+nav ul li a:hover{
+    color:black
+}
+.btn-primary{
+    background-color: beige;
+    color: brown;
+    border: none;
+}  */
+.navbar-nav form .d-flex{
+    margin-left: 400pxpx;
+}
+.navbar-nav i{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.navbar-nav .div .li a{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 200px;
+}

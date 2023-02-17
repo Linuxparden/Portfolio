@@ -1,0 +1,140 @@
+nav{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 10px gray;
+}
+.nav-link{
+    color: rgb(156, 1, 136);
+}
+.bread{
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+}
+.breadcrumb{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+.breadcrumb li a{
+    color: white;
+    text-decoration: none;
+}
+.current{
+    color: white;
+}
+.card{
+    text-align: center;
+}
+.wrapper{
+    position: relative;
+}
+.side-wrapper{
+    position: fixed;
+    width: 10%;
+    height: 100vh;
+    background: #000;
+}
+.side-menu li{
+    list-style: none;
+}
+.side-menu li a i{
+    color: white;
+    font-size: 25px;
+}
+.main-wrapper{
+    background-color: pink;
+    height: 200vh;
+}
+.bread{
+    height: 50px;
+    background-color: orchid;
+    position: relative;
+}
+.breadcrumb{
+position: absolute;
+top: 20px;
+left: 20px;
+}
+.breadcrumb li a{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: bisque;
+    height: 100px;
+    border: 2px solid black;
+}
+ .right-side button{
+   color: blue;
+   border-radius: 2px;
+   background-color: white;
+}
+.right-side button:hover{
+    background-color: black;
+}
+center .social-icons a{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(1, 97, 1);
+    text-decoration: none;
+}
+center .social-icons a:hover{
+    color: black;
+}
+header{
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkcBM4Xy-8Ru7SMKhYFGrSigTfG3QDIWdkw&usqp=CAU);
+    background-size: contain;
+}
+header .hero{
+    position: absolute;
+    left: 25%;
+    top: 200px;
+}
+header .hero h1{
+    font-size: 60px;
+    line-height: 5px;
+    font-family:  Tahoma;
+    color: rgb(1, 97, 1);
+}
+header .hero p{
+    font-family: Tahoma;
+}
+header .hero p:first-child{
+    color: red;
+    font-family:  Tahoma;
+}
+header .hero p{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+header .hero .btn{
+    background-color: red;
+    padding: 10px  20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    
+}
+header .hero .btn:hover{
+    box-shadow: 0 0 3px grey;
+    color: aqua;
+}
+section{
+    height: 100vh;
+    background-color: bisque;
+    background-size: contain;
+    text-align: center;
+    justify-content: center;
+    
+}
+.header h1{
+    font-size:100px ;
+    margin-top: 200px;
+    position: absolute;
+    color: red;
+    margin-left: 50px;
+}
+.header h1 span{
+    color: green ;
+}

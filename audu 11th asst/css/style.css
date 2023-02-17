@@ -1,0 +1,83 @@
+
+.navbar-brand img{
+    width: 100px;
+}
+.login-icon{
+    color: white;
+    padding-left: 10px;
+}
+.dropdown-menu{
+    margin-left: 80%;
+    border: none;
+    color: red;
+}
+.dropdown-menu li a{
+    color: red;
+}
+dropdown-item:hover{
+    background-color: white;
+}
+@media (max-width: 579px){
+    .dropdown-menu{
+        margin-left: 65%;
+    }
+}
+nav{
+    background-color: burlywood;
+}
+.drop{
+    color: white;
+}
+header{
+    width: 100%;
+    height: 700px;
+    
+    background-size: cover;
+}
+#result{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+footer{
+    background-color: rgb(226, 226, 236);
+    height:50px ;
+}
+footer  h3{
+    color: rgb(201, 153, 153);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.fade-in-image {
+    animation: fadeIn 20s;
+    -webkit-animation: fadeIn 20s;
+    -moz-animation: fadeIn 20s;
+    -o-animation: fadeIn 20s;
+    -ms-animation: fadeIn 20s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

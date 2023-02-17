@@ -1,0 +1,20 @@
+@media (max-width: 770px){
+    .hero-img img{
+        display: none;
+    }
+    .box-items{
+        height: 300px;
+        width: 100%;
+    
+    }
+}
+@media (max-width: 560px){
+    .box-items{
+        height: 300px;
+        width: 95%;
+    
+    }
+    .hero-bottom{
+        margin-left: 10px;
+    }
+}

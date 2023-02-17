@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+.sec{
+    height: 400px;
+    background-color: blueviolet;
+
+}
+.Left{
+    background-color: yellow;
+}
+.Right{
+    background-color: orange;
+}

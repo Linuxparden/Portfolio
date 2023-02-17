@@ -1,0 +1,70 @@
+h1{
+    background-color: blue;
+}
+span{
+    background-color: brown;
+}
+div{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 400px;
+    margin-bottom: 400px;
+    margin-top: 400px;
+    
+    margin:200px 0 0 40% ;
+    border: 2px solid black;
+    padding: 50px 0 0  50px;
+}
+nav h3{
+    color: yellowgreen;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    padding: 20px;
+    font-size:20px ;
+    font-family: Tahoma;
+    
+
+}
+nav ul{
+    display: flex;
+}
+
+nav{
+    background-color: aqua;
+     height: 20px;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header{
+    background-image: ;
+    background-size: cover;
+    background-position: bottom;
+    height: 100px; 
+    border: 2px solid yellowgreen;
+    
+}
+section{
+    background-color: blanchedalmond;
+    height: 300px; 
+    border: 2px solid peru;
+    
+}
+footer{
+    background-color: blueviolet;
+    height: 50px; 
+    border: 2px solid darkkhaki;
+    
+}

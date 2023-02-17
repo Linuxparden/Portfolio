@@ -1,0 +1,54 @@
+nav{
+    background-color: blueviolet;
+    color: white;
+
+}
+.nav-link{
+    
+    color: white;
+    
+}
+.bread{
+    height: 200px;
+    background-color: orchid;
+    position: relative;
+}
+.breadcrumb{
+position: absolute;
+top: 150px;
+left: 20px;
+}
+.breadcrumb li a{
+    color: white;
+    text-decoration: none;
+}
+.current{
+color: blueviolet
+}
+.row img{
+    height: 200px;
+}
+.card{
+    text-align: center;
+}
+.wrapper{
+    position: relative;
+}
+.side-wrapper{
+    position: fixed;
+    width: 10%;
+    height: 100vh;
+    background: #000;
+}
+.side-menu li{
+    list-style: none;
+}
+.side-menu li a i{
+    color: white;
+    font-size: 25px;
+}
+.main-wrapper{
+    background-color: pink;
+    height: 200vh;
+}
+

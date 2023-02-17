@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Capstone</a>
+            <form class="d-flex nav-form" role="search">
+                <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="socials">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="profile dropdown">
+                <img src="images/pics.jpg" alt="" class="profile-img dropdown-toggle" data-bs-toggle="dropdown">
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Change Password</a></li>
+                    <li><a class="dropdown-item" href="#">Log Out</a></li>
+                </ul>
+            </div>
+            <!--Offcanvas-->
+            <div type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <i class="fa-sharp fa-solid fa-bars menu-icon"></i>
+            </div>
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul>
+                        <li class="offcanvas-items"><i class="fa-solid fa-house-user"></i> <a href="index.html">Home</a></li>
+                        <li class="offcanvas-items"><i class="fa-solid fa-address-card"></i> <a href="About.html">About</a></li>
+                        <li class="offcanvas-items"><i class="fa-solid fa-address-book"></i> <a href="Contact.html">Contact</a></li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="row top-flex">
+                <div class="col-lg-2 col-sm-12 side-bar">
+                    <div class="profile-data">
+                        <img src="" alt="" width="100%">
+                        <div class="pro">
+                            <img src="images/pics3.jpg" alt="" class="profile-side-img">
+                            <h3 style="margin-left: -30px;">Linuxparden</h3>
+                            <div class="follow">
+                                <p>Followers <br> <span>725</span></p>
+                                <div class="divider"></div>
+                                <p>Following  <br><span>3425</span></p>
+                            </div>
+                            <a href="https://web.facebook.com" class="btn btn-success">View Profile</a>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-sm-12 main-content">
+                    <div class="main-bg">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>

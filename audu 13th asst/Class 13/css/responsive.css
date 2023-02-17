@@ -1,0 +1,18 @@
+@media (max-width: 770px){
+    
+}
+@media (max-width: 560px){
+    .nav-form{
+        display: none;
+    }
+    .socials{
+        display: none;
+    }
+    .profile{
+        padding-right: 5px;
+        margin-left: -20px;
+    }
+    .top-flex{
+        display: block;
+    }
+}

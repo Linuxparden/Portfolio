@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #a7121e;
+    opacity: 0.9;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all ease 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+nav .social-icons a{
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(1, 113, 1);
+    text-decoration: none;
+}
+nav .social-icons a:hover{
+    color: black;
+}
+header{
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80);
+    background-size: cover;
+    position: relative;
+}
+header .hero{
+    position: absolute;
+    left: 25%;
+    top: 70px;
+}
+header .hero h1{
+    font-size: 60px;
+    line-height: 5px;
+    font-family: tahoma;
+    color: rgb(1, 113, 1);
+}
+header .hero p:first-child{
+    color: #a7121e;
+    font-family: tahoma;
+}
+header .hero p{
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+header .hero .btn{
+    background-color: #a7121e;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header .hero .btn:hover{
+    box-shadow: 0 0 3px gray;
+}
+main{
+    padding: 20px; 
+    text-align: center;   
+}
+main .row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+main .row .items img{
+    width: 250px;
+    height: 250px;
+    transition: all ease-in 0.5s;
+}
+main .row .items img:hover{
+    transform: scale(1.1);
+}
+main .row .items h3{
+    font-size: 20px;
+    color: #a7121e;
+}
+main .row .items button{
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all linear 1s;
+}
+main .row .items button:hover{
+    background-color: rgb(68, 68, 68);
+    box-shadow: 0 0 2px black;
+}
+#icon{
+    transition: all ease 1s;
+}
+#icon:hover{
+    animation: bounce;
+    animation-duration: 2s;
+}
+#contact{
+    height: 300px;
+    background-color: gray;
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+#contact .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact .row .left-side{
+    text-align: center;
+}
+#contact .row .right-side form{
+    padding: 10px;
+}
+#contact .row .right-side input{
+    padding: 2px;
+    margin: 2px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: white;
+}
+#contact .row .right-side input:focus{
+    outline: none;  
+}
+#contact .row .right-side button{
+    padding: 2px;
+    border-radius: 2px;
+
+}
+
+footer{
+    
+    background-color: #a7121e;
+    padding: 10px 30px;
+    color: white;
+}
+footer.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icon a {
+    padding:  5px;
+    color: white;
+    text-decoration: none;
+}

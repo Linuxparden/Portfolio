@@ -1,0 +1,190 @@
+body{
+    margin:  0;
+    padding: 0;
+}
+nav{
+    background-color:  #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(170, 19, 19);
+    font: size 18px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+nav ul li a:hover{
+    color: blue;
+    opacity: 1;
+   
+}
+center .social-icons a{
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(1, 97, 1);
+    text-decoration: none;
+}
+center .social-icons a:hover{
+    color: black;
+}
+header{
+    height: 100vh;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkcBM4Xy-8Ru7SMKhYFGrSigTfG3QDIWdkw&usqp=CAU);
+    background-size: contain;
+}
+header .hero{
+    position: absolute;
+    left: 25%;
+    top: 200px;
+}
+header .hero h1{
+    font-size: 60px;
+    line-height: 5px;
+    font-family:  Tahoma;
+    color: rgb(1, 97, 1);
+}
+header .hero p{
+    font-family: Tahoma;
+}
+header .hero p:first-child{
+    color: red;
+    font-family:  Tahoma;
+}
+header .hero p{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+header .hero .btn{
+    background-color: red;
+    padding: 10px  20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    
+}
+header .hero .btn:hover{
+    box-shadow: 0 0 3px grey;
+    color: aqua;
+}
+section{
+    height: 100vh;
+    background-color: bisque;
+    background-size: contain;
+    text-align: center;
+    justify-content: center;
+    
+}
+.header h1{
+    font-size:100px ;
+    margin-top: 200px;
+    position: absolute;
+    color: red;
+    margin-left: 50px;
+}
+.header h1 span{
+    color: green ;
+}
+
+#Product .row{
+    display: flex;
+    justify-content: left;
+}
+
+#Product .row .Product-text{
+  padding: 100px;
+  display: flex;
+  color: #000;
+}
+#Product .row .Product-image img{
+ 
+  display: flex;
+  
+}
+
+
+.Product-text button{
+    border: none;
+    padding: 10px  20px;
+    border-radius: 2px;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+}
+.Product-text button:hover{
+    background-color: green;
+}
+#product .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#product .row .about-text{
+    padding: 100px 50px;
+}
+#Product .row .product-image img{
+    width: 450px;
+    height: 80vh;
+    transition: all ease-in 0.5s;
+}
+#Product .row .product-image img:hover{
+    transform: scale(1.1);
+}
+.product-text button{
+    border: 2px solid red;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    justify-content: right;
+}
+.product-text button:hover{
+    border: 2px solid rgb(0, 83, 0);
+}
+.product-text h3{
+    color: white;
+    font-size: 25px;
+    
+}
+#icon:hover{
+    animation: bounce;
+    animation-duration: 2s;
+}
+#Contact{
+    height: 300px;
+    background-color: gray;
+    padding: 20px;
+}
+#Contact .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Contact .row .left-side{
+    text-align: center;
+}
+footer{
+    background-color: bisque;
+    height: 100px;
+    border: 2px solid black;
+}
+ .right-side button{
+   color: blue;
+   border-radius: 2px;
+   background-color: white;
+}
+.right-side button:hover{
+    background-color: black;
+}
+
+
+
+
+
+

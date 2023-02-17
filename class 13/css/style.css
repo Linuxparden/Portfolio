@@ -1,0 +1,15 @@
+.nav-agency{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+}
+.nav-menu{
+    margin-left: 100px;
+}
+.btn-agency{
+    margin: 0 ;
+}
